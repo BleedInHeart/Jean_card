@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(turquoise, blue, blueviolet, gold);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#chrc-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid blue;
+    margin-bottom: 10px;
+    background-color: turquoise;
+}
+
+#elem-char {
+    background: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#weap-type-char {
+    margin: 0;
+    background: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.skill-img {
+    margin: 20px auto;
+    max-width: 450px;
+    height: 300px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/Jean_Item.webp");
+    background-size: cover;
+}
+
+#skill-img-normal:hover {
+    background-image: url("images/Favonius_Bladework_Normal_Preview.webp");
+}
+
+#skill-img-hold:hover {
+    background-image: url("images/Favonius_Bladework_Hold_Preview.webp");
+}
+
+#skill-img-e:hover {
+    background-image: url("images/Gale_Blade_Press_Preview.webp");
+}
+
+#skill-img-e-hold:hover {
+    background-image: url("images/Gale_Blade_Hold_Preview.webp");
+}
+
+#skill-img-q:hover {
+    background-image: url("images/Dandelion_Breeze_Preview.webp");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
